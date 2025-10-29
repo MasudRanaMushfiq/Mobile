@@ -23,12 +23,12 @@
   </div>
   <div class="mb-2">
     <label for="stock" class="form-label">Stock</label>
-    <input type="text" class="form-control" name="stock" value="{{ old('title')}}">
+    <input type="text" class="form-control" name="stock" value="{{ old('stock')}}">
     <div>{{ $errors->first('stock') }}</div>
   </div>
   <div class="mb-2">
     <label for="price" class="form-label">Price</label>
-    <input type="text" class="form-control" name="price" value="{{ old('title')}}">
+    <input type="text" class="form-control" name="price" value="{{ old('price')}}">
     <div>{{ $errors->first('price') }}</div>
   </div>
 
